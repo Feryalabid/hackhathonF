@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.quote button {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: gray;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-weight: 500px;
+}
+
+.content {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.bg {
+    margin-left: 7%;
+}
+
+.c1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.c2 {
+    font-size: 25px;
+    margin-top: 3%;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.book button {
+    width: 200px;
+    height: 60px;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.bg {
+    float: right;
+}
+
+.allimg {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    flex-wrap: wrap;
+}
+
+.services {
+    display: flex;
+    margin-top: 5%;
+    gap: 90px;
+    margin-left: 21%;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.s1 {
+    background-color: greenyellow;
+}
+
+.s2 {
+    display: flex;
+    text-align: left;
+    border: 1px solid gray;
+    background-color: rgb(228, 228, 228);
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+   
+    ul {
+        display: none;
+    }
+
+    .allimg {
+        gap: 30px;
+    }
+
+    .content {
+        margin-left: 15%;
+    }
+ .book button {
+        width: 120px;
+    }
+    .bg img{
+        display: none;
+    }
+    .s1{
+        height: 50px;
+    }
+    .services{
+        margin-top: 20%;
+    }
+}
